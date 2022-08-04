@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.login-img {
+  width: 50vw;
+  height: 99vh;
+}
+.login-right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  align-items: center;
+}
+.login-right-side h2 {
+  padding-bottom: 40px;
+}
+.form-group {
+  padding-bottom: 20px;
+}
+.form-group input {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.3);
+  color: #f6f6f7;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.authForm-btn {
+  background-color: #52796f;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  height: 44px;
+  min-height: 44px;
+  min-width: 130px;
+  width: 100%;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  padding: 2px 16px;
+  cursor: pointer;
+}
+#username-label,
+#email-label,
+#password-label {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 16px;
+
+  color: #000;
+  margin-bottom: 8px;
+}

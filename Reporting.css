@@ -1,0 +1,50 @@
+body {
+  --accent-font: "Bilbo", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+.nav-right span:last-child {
+  padding-left: 20px;
+}
+.nav-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Report-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  padding-bottom: 30px;
+}
+.Report-Sort-by {
+  display: flex;
+  align-items: center;
+}
+.Report-Sort-by-Item {
+  margin-left: 20px;
+  padding: 10px 15px;
+  background-color: #bde0fe;
+  border-radius: 20px;
+}
+.active {
+  background-color: #83c5be;
+}
+.Report-Table-Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
